@@ -185,7 +185,7 @@ All times in CEST. Packet-capture values include the native UTC value in parenth
 | 12:40:28 | lge-files-01 | first sudo python3 (auid=1000, euid=0, key=lab03_exec, escalation signature) |
 | 12:40:51 | lge-files-01 | sudo python3 -c '...useradd sysupdate...' (backdoor account, sudo group) |
 | 12:41:00 | lge-files-01 | sudo python3 -c '...write /etc/cron.d/system-update...' (C2 cron) |
-| 12:43:17 to 12:48:55 | lge-files-01 | Data reconnaissance: ls /data, cat nexacorp-sync.conf, find *.conf *.env *.key, cat db-credentials.env |
+| 12:43:17 to 12:48:55 | lge-files-01 | Data reconnaissance: `ls /data`, `cat nexacorp-sync.conf`, `find *.conf *.env *.key`, `cat db-credentials.env` |
 | 12:45:01 (10:45:01 UTC) | network | First C2 beacon: GET /update?h=lge-files-01 to 34.251.89.142:80 |
 | 12:50:01 (10:50:01 UTC) | network | Second beacon |
 | 12:55:01 (10:55:01 UTC) | network | Third beacon |

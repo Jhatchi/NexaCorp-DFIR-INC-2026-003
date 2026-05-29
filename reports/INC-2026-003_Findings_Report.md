@@ -243,7 +243,7 @@ Risk positions reflect analyst estimates based on attack chain progression and o
 | Command and Control | Web Service / Scheduled Transfer | T1102, T1029 | x | | |
 
 > **Discovery note.** The "System and Network Discovery (multiple)" row consolidates several closely related techniques observed across the incidents: System Owner/User Discovery (T1033), System Information Discovery (T1082), Account Discovery: Local Account (T1087.001), System Network Configuration Discovery (T1016), System Network Connections Discovery (T1049), Network Service Discovery (T1046), and Process Discovery (T1057). They are grouped here for readability and listed individually in the source incident reports.
-
+>
 > **Recurrence note.** Three technique families recur across incidents and support single-actor attribution: Unsecured Credentials: Private Keys (T1552.004) in INC-002 and INC-003, Abuse of Sudo (T1548.003) suspected in INC-001 and confirmed in INC-003, and cron-based web C2 (T1053.003 with T1071.001) in INC-002 and INC-003.
 
 ---
