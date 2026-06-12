@@ -24,6 +24,7 @@ All IP addresses, hostnames, account names, key fingerprints, and indicators of 
 | Reference | `BCC-2026 / INC-2026-003` |
 | Deliverable | Month 1 Assessment Report (INC-2026-001 + INC-2026-002 + INC-2026-003) |
 | Related incidents | [`INC-2026-001`](https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-001) and [`INC-2026-002`](https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-002) (same threat actor) |
+| Later missions | [`INC-2026-004`](https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-004) (SQL injection on bru-web-01) and [`INC-2026-005`](https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-005) (OS command injection and web shell) |
 | Scope | Forensic analysis of the evidence bundle (assessment lab, no live phase) |
 | Delivered | 2026-05-29 |
 | Status | Complete and submitted |
