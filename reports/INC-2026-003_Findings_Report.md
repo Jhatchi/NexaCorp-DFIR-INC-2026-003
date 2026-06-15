@@ -1,11 +1,11 @@
-# Month 1 Assessment Report
+# INC-2026-003 Findings Report: Month 1 Assessment
 
-## NexaCorp Industries: INC-2026-001, INC-2026-002, INC-2026-003
-
-**Client:** NexaCorp Industries
+**Engagement:** NexaCorp DFIR, Month 1 Assessment (cross-incident: INC-2026-001 + INC-2026-002 + INC-2026-003)
+**Reference:** BCC-2026 / INC-2026-003
+**Target system:** NexaCorp internal Linux servers (bru-app-01, lge-files-01)
 **Prepared for:** Marc Wauters, IT Infrastructure Manager
-**Prepared by:** SOC Analyst, BeCode Corp
 **Reviewing authority:** Sarah Chen, Senior SOC Analyst
+**Analyst:** Johan-Emmanuel Hatchi, SOC Analyst L1, BeCode Corp
 **Report date:** May 28, 2026
 **Classification:** Confidential
 
