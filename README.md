@@ -23,8 +23,6 @@ All IP addresses, hostnames, account names, key fingerprints, and indicators of 
 |---|---|
 | Reference | `BCC-2026 / INC-2026-003` |
 | Deliverable | Month 1 Assessment Report (INC-2026-001 + INC-2026-002 + INC-2026-003) |
-| Related incidents | [`INC-2026-001`](https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-001) and [`INC-2026-002`](https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-002) (same threat actor) |
-| Later missions | [`INC-2026-004`](https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-004) (SQL injection on bru-web-01), [`INC-2026-005`](https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-005) (OS command injection and web shell), and [`INC-2026-006`](https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-006) (stored XSS and session hijacking) |
 | Scope | Forensic analysis of the evidence bundle (assessment lab, no live phase) |
 | Delivered | 2026-05-29 |
 | Status | Complete and submitted |
@@ -210,11 +208,14 @@ grep -E "it_support|ssh-keygen|/home/svc_api/.ssh" bru-app-01/auth.log
 - **Dwell time between incidents.** The `it_support` backdoor on bru-app-01 was never cleaned up after INC-2026-002. Whether the attacker maintained quiet access between the two incidents is not reconstructible from the 24 May logs alone.
 - **Lab addressing note.** The IP addressing scheme used in the INC-2026-003 evidence bundle (192.168.10.0/24) differs from the scheme used in earlier mission bundles (notably INC-2026-002, which used 10.10.10.0/24). This reflects independent lab provisioning per mission and does not affect the continuity of the cross-incident narrative: the same logical host bru-app-01 is involved in both incidents, regardless of its lab-assigned IP.
 
-## License
+## NexaCorp DFIR series
 
-[MIT](LICENSE), 2026 Johan-Emmanuel Hatchi.
-
-The report text and the methodology notes are released under MIT: free to copy, adapt, and reuse with attribution. The evidence bundle, lab infrastructure, and original engagement briefings remain BeCode Brussels property and are not redistributed.
+- [INC-2026-001](https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-001): Linux infrastructure compromise (vsftpd backdoor, Caldera C2)
+- [INC-2026-002](https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-002): privilege escalation and persistence (Tor SSH, SUID, backdoor account)
+- **INC-2026-003**: this repository
+- [INC-2026-004](https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-004): SQL injection (web portal)
+- [INC-2026-005](https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-005): OS command injection and web shell (web portal)
+- [INC-2026-006](https://github.com/Jhatchi/NexaCorp-DFIR-INC-2026-006): stored XSS and session hijacking (web portal)
 
 ## Acknowledgments
 
@@ -230,3 +231,9 @@ Author: **Johan-Emmanuel Hatchi**, French national based in Brussels, cybersecur
 [GitHub](https://github.com/Jhatchi) - [LinkedIn](https://www.linkedin.com/in/johan-emmanuel-hatchi/)
 
 Open to cybersecurity internship opportunities starting September 2026 in Belgium. Looking for SOC L1/L2, DFIR junior, or detection engineering roles where this kind of end-to-end work (offline forensics, attacker timeline reconstruction, cross-incident kill chain analysis, formal client reporting) is in scope.
+
+## License
+
+[MIT](LICENSE), 2026 Johan-Emmanuel Hatchi.
+
+The report text and the methodology notes are released under MIT: free to copy, adapt, and reuse with attribution. The evidence bundle, lab infrastructure, and original engagement briefings remain BeCode Brussels property and are not redistributed.
