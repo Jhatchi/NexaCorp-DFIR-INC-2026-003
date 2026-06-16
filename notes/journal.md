@@ -1,6 +1,6 @@
-# INC-2026-003 - NexaCorp Liege File Server Investigation
+# Investigation Journal: INC-2026-003
 
-## Investigation Journal - Month 1 Assessment (forensic only)
+## Month 1 Assessment (forensic only)
 
 ---
 

@@ -1,4 +1,4 @@
-# Indicators of compromise (INC-2026-003)
+# Indicators of Compromise: INC-2026-003
 
 Key indicators of compromise extracted from section 6.2 of the [Month 1 Assessment Report](../reports/INC-2026-003_Findings_Report.md), presented in a format suitable for ingestion into a SIEM or threat-intel platform.
 

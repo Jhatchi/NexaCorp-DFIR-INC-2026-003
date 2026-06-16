@@ -1,4 +1,4 @@
-# INC-2026-003 attack timeline
+# Attack Timeline: INC-2026-003
 
 Standalone detailed timeline for INC-2026-003, expanding section 2 of the [Month 1 Assessment Report](../reports/INC-2026-003_Findings_Report.md).
 

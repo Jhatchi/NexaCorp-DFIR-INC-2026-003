@@ -1,4 +1,4 @@
-# MITRE ATT&CK mapping (cross-incident)
+# MITRE ATT&CK Mapping: INC-2026-003 (cross-incident)
 
 Standalone copy of table 4.3 from the [Month 1 Assessment Report](../reports/INC-2026-003_Findings_Report.md), mapping observed techniques across INC-2026-001, INC-2026-002, and INC-2026-003. Framework: MITRE ATT&CK Enterprise v15.
 
