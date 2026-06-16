@@ -21,7 +21,7 @@ Key indicators of compromise extracted from section 6.2 of the [Month 1 Assessme
 | File path | `/tmp/.update.log` | Local beacon marker |
 | File path | `/tmp/.cache` | Staged stolen private key on bru-app-01 |
 | Account | `sysupdate` | Backdoor local account, sudo group |
-| Credential | `Backd00r!` | Password set on the sysupdate account |
+| Credential | `[REDACTED-lab-credential]` | Password set on the sysupdate account |
 | SSH key fingerprint | `SHA256:Cx3hNuyZt0jgbq25UKWg3kcSA0L9dfgL3OeCHXlJQg4` | Stolen svc_api key used for the pivot |
 
 ## Detection and containment quick reference

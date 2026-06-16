@@ -160,7 +160,7 @@ All indicators below belong to the BeCode SOC training lab (NexaCorp scenario, f
 | /tmp/.update.log | File path | Local beacon marker on lge-files-01 |
 | /tmp/.cache | File path | Staged stolen private key on bru-app-01 |
 | sysupdate | Account | Backdoor local account on lge-files-01, sudo group |
-| Backd00r! | Credential | Password set on the sysupdate account |
+| [REDACTED-lab-credential] | Credential | Password set on the sysupdate account |
 | SHA256:Cx3hNuyZt0jgbq25UKWg3kcSA0L9dfgL3OeCHXlJQg4 | SSH key fingerprint | Stolen svc_api key reused to authenticate as svc_backup |
 | GET /update?h=lge-files-01 | HTTP request | Beacon pattern to the C2 server |
 

@@ -158,7 +158,7 @@ The attacker installed two persistence mechanisms within nine seconds of each ot
 - CWE: CWE-269 (Improper Privilege Management), account added to the sudo group
 - ATT&CK: T1136.001
 - Created: 12:40:51 CEST
-- What it does: creates the account `sysupdate` with password `Backd00r!` and adds it to the `sudo` group, providing a standalone administrative login independent of the stolen key.
+- What it does: creates the account `sysupdate` with password `[REDACTED-lab-credential]` and adds it to the `sudo` group, providing a standalone administrative login independent of the stolen key.
 - Safe removal: `userdel -r sysupdate`, then verify removal from `/etc/passwd`, `/etc/shadow`, and `/etc/group`.
 
 **Mechanism 2: Scheduled C2 beacon.**
@@ -318,7 +318,7 @@ A single one of these alerts would have reduced detection time from a chance dis
 | `/tmp/.update.log` | File path | Local beacon marker |
 | `/tmp/.cache` | File path | Staged stolen private key on bru-app-01 |
 | `sysupdate` | Account | Backdoor local account, sudo group |
-| `Backd00r!` | Credential | Password set on the sysupdate account |
+| `[REDACTED-lab-credential]` | Credential | Password set on the sysupdate account |
 | `SHA256:Cx3hNuyZt0jgbq25UKWg3kcSA0L9dfgL3OeCHXlJQg4` | SSH key fingerprint | Stolen svc_api key used for the pivot |
 | `GET /update?h=lge-files-01` | HTTP request | Beacon pattern to the C2 server |
 
