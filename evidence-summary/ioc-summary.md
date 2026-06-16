@@ -6,23 +6,23 @@ Key indicators of compromise extracted from section 6.2 of the [Month 1 Assessme
 
 ## Network indicators
 
-| Indicator | Type | Context |
+| Type | Value | Context |
 |---|---|---|
-| 34.251.89.142 | IPv4 | C2 server contacted by the cron beacon |
-| 185.220.101.62 | IPv4 | Tor exit node, it_support login source |
-| 185.220.101.47 | IPv4 | Tor exit node, related scanning activity |
-| `GET /update?h=lge-files-01` | HTTP request | Beacon pattern to the C2 server (port 80) |
+| IPv4 | 34.251.89.142 | C2 server contacted by the cron beacon |
+| IPv4 | 185.220.101.62 | Tor exit node, it_support login source |
+| IPv4 | 185.220.101.47 | Tor exit node, related scanning activity |
+| HTTP request | `GET /update?h=lge-files-01` | Beacon pattern to the C2 server (port 80) |
 
 ## Host indicators
 
-| Indicator | Type | Context |
+| Type | Value | Context |
 |---|---|---|
-| `/etc/cron.d/system-update` | File path | Malicious cron persistence |
-| `/tmp/.update.log` | File path | Local beacon marker |
-| `/tmp/.cache` | File path | Staged stolen private key on bru-app-01 |
-| `sysupdate` | Account | Backdoor local account, sudo group |
-| `Backd00r!` | Credential | Password set on the sysupdate account |
-| `SHA256:Cx3hNuyZt0jgbq25UKWg3kcSA0L9dfgL3OeCHXlJQg4` | SSH key fingerprint | Stolen svc_api key used for the pivot |
+| File path | `/etc/cron.d/system-update` | Malicious cron persistence |
+| File path | `/tmp/.update.log` | Local beacon marker |
+| File path | `/tmp/.cache` | Staged stolen private key on bru-app-01 |
+| Account | `sysupdate` | Backdoor local account, sudo group |
+| Credential | `Backd00r!` | Password set on the sysupdate account |
+| SSH key fingerprint | `SHA256:Cx3hNuyZt0jgbq25UKWg3kcSA0L9dfgL3OeCHXlJQg4` | Stolen svc_api key used for the pivot |
 
 ## Detection and containment quick reference
 
