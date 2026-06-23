@@ -11,6 +11,24 @@ Forensic assessment of a lateral-movement and persistence incident on NexaCorp's
 
 This repository documents a SOC analyst engagement carried out as part of the BeCode Cybersecurity Bootcamp (promotion 2025-2026). It is an assessment lab : a forensic investigation and report, with no detection-rule (Phase 2) deliverable. It is the third incident in the NexaCorp DFIR series and the Month 1 capstone.
 
+## Contents
+
+- [Operational notice](#operational-notice)
+- [At a glance](#at-a-glance)
+- [Engagement context](#engagement-context)
+- [Executive summary](#executive-summary)
+- [Kill chain summary](#kill-chain-summary)
+- [How to read this repository](#how-to-read-this-repository)
+- [Methodology](#methodology)
+- [Detection engineering](#detection-engineering)
+- [Repository layout](#repository-layout)
+- [Reproducibility](#reproducibility)
+- [Known limits](#known-limits)
+- [NexaCorp DFIR series](#nexacorp-dfir-series)
+- [Acknowledgments](#acknowledgments)
+- [About](#about)
+- [License](#license)
+
 ---
 
 ## Operational notice
