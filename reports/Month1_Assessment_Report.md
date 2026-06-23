@@ -61,7 +61,7 @@ Over the first month of monitoring, NexaCorp's Linux server estate was the targe
 
 ## 3. Attack chain narrative : one adversary, three servers
 
-The three incidents are a single, connected progression by the same actor, anonymised through Tor:
+The three incidents are assessed as a single, connected progression by the same actor, who used Tor anonymisation from INC-2026-002 onward:
 
 1. **INC-2026-001 (Liege services server).** The attacker exploits a legacy backdoored service to get root, and the server is found to already host a separate, pre-existing command-and-control implant.
 2. **INC-2026-002 (Brussels application server).** Using a stolen SSH key over Tor, the attacker logs in as a service account, escalates to root through a misconfigured binary, dumps credentials, and **harvests SSH keys**. They plant a backdoor account and persistence.
