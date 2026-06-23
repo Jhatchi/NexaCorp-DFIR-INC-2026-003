@@ -84,7 +84,7 @@ The root cause is SSH key reuse across service accounts : a single private key o
 | **Recruiter or hiring manager** | This README + the [report](reports/INC-2026-003_Findings_Report.md) executive summary | 5 min |
 | **Management / board** | The [Month 1 Assessment Report](reports/Month1_Assessment_Report.md) (non-technical, business impact, the three incidents as one story) | 10 min |
 | **SOC analyst evaluating fit** | [Report](reports/INC-2026-003_Findings_Report.md) technical analysis + [`evidence-summary/ioc-summary.md`](evidence-summary/ioc-summary.md) | 20 min |
-| **DFIR practitioner** | Full [report](reports/INC-2026-003_Findings_Report.md) + [`methodology/attack-timeline.md`](methodology/attack-timeline.md) + [`notes/journal.md`](notes/journal.md) | 30 min |
+| **DFIR practitioner** | Full [report](reports/INC-2026-003_Findings_Report.md) + [`methodology/attack-timeline.md`](methodology/attack-timeline.md) + [`methodology/three-incident-kill-chain.md`](methodology/three-incident-kill-chain.md) + [`notes/journal.md`](notes/journal.md) | 30 min |
 | **Anyone who wants to grep, cite, or diff** | [Markdown source of the report](reports/INC-2026-003_Findings_Report.md) | as needed |
 
 ---

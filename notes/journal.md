@@ -218,7 +218,7 @@ Three recurring technique families anchor the single-actor attribution and are e
 - Abuse Elevation Control: Sudo and Sudo Caching (T1548.003), suspected in INC-2026-001 and confirmed in INC-2026-003.
 - Cron-based web Command and Control (T1053.003 with T1071.001), present in INC-2026-002 and INC-2026-003.
 
-Operational fingerprints reinforce the pattern: connections from the 185.220.101.x range (Tor exit nodes), reuse of valid service-account credentials, abuse of privilege-escalation misconfigurations (SUID then sudo), and cron-based HTTP persistence. The fingerprints recur, and the random Tor scans visible in auth.log do not look anything like this attacker's behaviour.
+Operational fingerprints reinforce the 002-003 link: connections from the 185.220.101.x range (Tor exit nodes), reuse of valid service-account credentials, abuse of privilege-escalation misconfigurations (SUID on bru-app-01, then sudo on lge-files-01), and cron-based HTTP persistence. These fingerprints recur across INC-2026-002 and INC-2026-003 ; INC-2026-001 is linked by inference, not by this fingerprint (its captured activity used a different external IP, 172.16.50.10, over a vsftpd backdoor, and the host carried a separate Caldera implant likely run by a distinct actor). The random Tor scans visible in auth.log do not look anything like this attacker's behaviour.
 
 ---
 
